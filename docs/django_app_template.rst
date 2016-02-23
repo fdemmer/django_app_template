@@ -13,6 +13,11 @@ A few things were added or modified.
 
 - based on Django 1.9.1 template
 
+- added commented samples for: model, model admin and generic view
+
+- added app-level urls.py
+
+- added place holder for app-level templates directory
 
 
 .. [1] https://docs.djangoproject.com/en/1.9/ref/django-admin/#startapp
