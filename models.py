@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-{{ unicode_literals }}from django.db import models
+{{ unicode_literals }}from django.core.urlresolvers import reverse
+from django.db import models
 from django.utils.encoding import python_2_unicode_compatible, force_text
 from django.utils.translation import ugettext_lazy as _
 
@@ -17,3 +18,6 @@ from django.utils.translation import ugettext_lazy as _
 #
 #     def __str__(self):
 #         return force_text(self.pk)
+#
+#     def get_absolute_url(self):
+#         return reverse('blog:myview', args=(self.pk,))
